@@ -39,7 +39,7 @@ def hello():
     cur.close()
     conn.close()
     
-    return f"Salut! Pagina asta a fost vizitata de {count} ori.\n"
+    return f"Salut! Pagina asta a lui Robert a fost vizitata de {count} ori.\n"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
